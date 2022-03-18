@@ -5,5 +5,5 @@ Realizado como ejercicio de Launch X
 
 
 
-Créditos de quienes use como inspiración para mi nuevo desarrollo : https://codepen.io/Pauliigs y https://codepen.io/quocdat1994 
+Créditos de quienes use como inspiración para mi desarrollo : https://codepen.io/Pauliigs y https://codepen.io/quocdat1994 
 
