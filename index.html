@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pokédex V2.0</title>
+  <link rel='stylesheet' href='./css/jquery-ui.css'>
+  <link rel="stylesheet" href="./css/pokedex.css">
+  <script src='./js/jquery.min.js'></script>
+  <script src='./js/jquery-ui.js'></script>
+  <script src='./js/axios.min.js'></script>
+  <script src='./js/responsivevoice.js'></script>
+  <script  src="./js/pokedex.js"></script>
+
+</head>
+<body>
+  
+  <div class="tituloPoke">
+    <h1>Pokédex</h1>
+  </div>
+<div class="container">
+    <div class="left-screen">
+      <div class="left-screen__top">
+        <div class="light-container">
+          <div class="light light--blue">
+          </div>
+        </div>
+        <div class="light light--red"></div>
+        <div class="light light--yellow"></div>
+        <div class="light light--green"></div>
+      </div>
+      <div class="left-screen__bottom">
+        <div class="main-screen">
+          <div class="main-screen__top-lights">
+          </div>
+          <div id="display" class="main-screen__display">
+            <div class="pokemon-image"></div>
+            <div class="search-message">Buscando...</div>
+            <div class="not-found-message">Pokémon <br>No Encontrado</div>
+          </div>
+          <div class="main-screen__speaker-light"></div>
+          <div class="main-screen__speaker">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <div class="left-screen__joint">
+        <div class="joint"></div>
+        <div class="joint"></div>
+        <div class="joint"></div>
+        <div class="joint"></div>
+        <div class="joint__reflextion"></div>
+      </div>
+    </div>
+    <div class="right-screen">
+      <div class="right-screen__top">
+        <div></div>
+      </div>
+      <div class="right-screen__bottom">
+        <div class="info-container">
+          <input id="search" type="text" class="info-input" placeholder="Aqui el Nombre de tu Pókemon ó ID">
+          <section class="info-screen">
+            <div id="species" class="info">
+              <div class="label">Especie:</div>
+              <div class="desc">...</div>
+            </div>
+            <div id="type" class="info">
+              <div class="label">Tipo:</div>
+              <div class="desc">...</div>
+            </div>
+            <div id="height" class="info">
+              <div class="label">Altura:</div>
+              <div class="desc">...</div>
+            </div>
+            <div id="weight" class="info">
+              <div class="label">Peso:</div>
+              <div class="desc">...</div>
+            </div>
+            <div id="evolution" class="info">
+              <div class="label">Evoluciones:</div>
+              <div class="desc">...</div>
+            </div>
+            <div id="bio" class="info">
+              <div class="label">Datos Adicionales:</div>
+              <div class="desc">...</div>
+            </div>
+            <div id="movements" class="info">
+              <div class="label">Movimientos:</div>
+              <div class="desc">...</div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
